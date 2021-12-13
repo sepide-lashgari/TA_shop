@@ -9,8 +9,13 @@ const Nav = ({data}) => {
                 {
                     data.map(item =>
                         <a href={item.link}>
-                            <li>
+                            <li >
                                 {item.title}
+                                <ol>
+                                    {item.subMenu.map((item) => <li>
+                                        {item.title}
+                                    </li>)}
+                                    </ol>
                             </li>
                         </a>
 
