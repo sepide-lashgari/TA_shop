@@ -1,8 +1,7 @@
 import React from "react"
-import Header from "../components/Header/Header";
-
-import "swiper/swiper-bundle.css"
-import Carousel from "../components/carouser/Carousel";
+import Carousel from "../components/Carousel/Carousel";
+import Category from "../components/category/Category";
+import ProductsSlider from "../components/products-slider/ProductsSlider";
 
 
 const Home = () => {
@@ -10,8 +9,12 @@ const Home = () => {
 
     return(
         <div>
-           Home
-            <Carousel/>
+
+           <Carousel/>
+           <Category/>
+           <ProductsSlider/>
+           
+
         </div>
     )
 }
