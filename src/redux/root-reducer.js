@@ -12,9 +12,7 @@ export default combineReducers({
     countReducer:countReducer,
     menuReducer:menuReducer,
     carouselReducer:carouselReducer,
-
     categoryReducer:categoryReducer  ,
-
     searchReducer:searchReducer
 
 })

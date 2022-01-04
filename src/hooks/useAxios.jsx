@@ -14,9 +14,9 @@ const useAxios = (endpoint) => {
                 await setLoading(true)
                 await axios.get(`http://localhost:4000/${endpoint}`)
                     .then(
-                        (res) => {
-                            setData(res.data)
-                        }
+                      (res) => {
+                                                 setData(res.data)
+                                             }
                     )
             } catch (e) {
                 await console.log("error:", e)
