@@ -1,3 +1,3 @@
 export const searchActionType = {
-    FETCH:"FETCH"
+    FETCH_SEARCH:"FETCH_SEARCH"
 }
