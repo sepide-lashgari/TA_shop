@@ -1,0 +1,35 @@
+.product-size ul li{
+    border-radius: 10px;
+    list-style-type: none;
+    border: 1px dotted greenyellow;
+    margin:1rem;
+}
+.product-ul{
+    list-style-type:none;
+}
+.product-color-item{
+    width: 1.5rem;
+    height: 1.5rem;
+    list-style-type: none;
+    border-radius: 10px;
+    border:1px solid #999;
+}
+.discount{
+    background-color: red;
+    border-radius: 8px;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.name{
+    text-align: right;
+    
+}
+.active-size{
+    background-color: greenyellow;
+    
+}
+.active-color{
+    border:5px solid goldenrod; 
+
+}

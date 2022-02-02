@@ -47,28 +47,6 @@ const Search = () => {
         }
     }
 
-    const keyHandler = (e) => {
-        if (searchRes?.length > 0) {
-            if (e.which === 38) {
-                if (activeSearch === 0) {
-                    setActiveSearch(searchRes.length - 1)
-                } else {
-                    setActiveSearch(prevState => prevState - 1)
-                }
-            }
-            else if (e.which === 40) {
-                if (activeSearch === searchRes.length - 1) {
-                    setActiveSearch(0)
-                } else {
-                    setActiveSearch(prevState => prevState + 1)
-                }
-            }
-            else if (e.which === 13) {
-                dispatch(fetchSearch())
-                navigate(`/products/${searchRes[activeSearch].id}`)
-            }
-        }
-    }
 
     return (
         <div className={`search d-flex flex-row-reverse p-2 position-relative`}>
